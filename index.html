@@ -22,28 +22,33 @@
         </div>
     </section>
 
-    <section id="contact">
-        <a href="https://wa.me/8708765265" target="_blank">Chat with us on WhatsApp</a>
-        <h2>Book an Appointment</h2>
-        <form action="https://formspree.io/f/mrewdezv" method="POST">
-            <label>Name:</label>
-            <input type="text" name="name" required>
-            
-            <label>Service Needed:</label>
-            <select name="service">
-                <option>Aadhaar Update Assistance</option>
-                <option>Passport Form</option>
-                <option>Other</option>
-            </select>
-            <label>Your Email:</label>
-    <input type="email" name="email" placeholder="name@example.com">
-            
-            <label>Message:</label>
-            <textarea name="message"></textarea>
-            
-            <button type="submit">Submit Request</button>
-        </form>
-        <p><small>Disclaimer: We are a documentation assistance center. We help prepare and review applications for government services but do not have the authority to grant government approvals.</small></p>
-    </section>
+   <section id="contact">
+    <a href="https://wa.me/8708765265" target="_blank">Chat with us on WhatsApp</a>
+    <h2>Book an Appointment</h2>
+    <form action="https://formspree.io/f/mrewdezv" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        
+        <!-- New Phone Number Field -->
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your mobile number" required>
+        
+        <label>Service Needed:</label>
+        <select name="service">
+            <option>[Aadhaar Redacted] Update Assistance</option>
+            <option>Passport Form</option>
+            <option>Other</option>
+        </select>
+        
+        <label>Your Email (Optional):</label>
+        <input type="email" name="email" placeholder="name@example.com">
+        
+        <label>Message:</label>
+        <textarea name="message"></textarea>
+        
+        <button type="submit">Submit Request</button>
+    </form>
+    <p><small>Disclaimer: We are a documentation assistance center. We help prepare and review applications for government services but do not have the authority to grant government approvals.</small></p>
+</section>
 </body>
 </html>
