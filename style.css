@@ -1,0 +1,46 @@
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 20px; 
+    color: #333; 
+}
+header { 
+    background: #FF671F; 
+    color: #FFFFFF; 
+    padding: 2rem; 
+    text-align: center; 
+}
+.service-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+.card { 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 8px; 
+    background: #f4f4f4; 
+}
+#contact { 
+    max-width: 500px; 
+    margin: 40px auto; 
+}
+form { 
+    display: flex; 
+    flex-direction: column; 
+}
+input, select, textarea { 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    width: 100%; 
+}
+button { 
+    background: #FF671F; 
+    color: #FFFFFF; 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
+}
